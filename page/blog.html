@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Blog | Hydra Desarrollo de Software</title>
+        <meta name="description" content="Blog de desarrolladores, Hydra Tech - Artículos sobre tecnología, desarrollo de software y tendencias digitales">
+        <link rel="stylesheet" href="/css/menu.css">
+        <link rel="stylesheet" href="/css/blog.css">
+        <link rel="stylesheet" href="/css/styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <a href="/index.html">
+                        <img src="/img/logo1.png" alt="Hydra Desarrollo Web" width="">
+                    </a>
+                </div>
+            </div>
+            <nav class="nav">
+                <ul class="nav-bar">
+                    <li><a href="/index.html" class="nav-link"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="/page/servicio.html" class="nav-link"><i class="fas fa-code"></i> Servicios</a></li>
+                    <li><a href="/page/portafolio.html" class="nav-link"><i class="fas fa-briefcase"></i> Portafolio</a></li>
+                    <li><a href="/page/blog.html" class="nav-link active"><i class="fas fa-blog"></i> Blog</a></li>
+                    <li><a href="/page/contacto.html" class="nav-link"><i class="fas fa-envelope"></i> Contacto</a></li>
+                </ul>
+                <div class="burger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="blog-container">
+            <section class="blog-header">
+                <h1>Blog de Hydra Tech</h1>
+                <p>Descubre las últimas tendencias en desarrollo de software, mejores prácticas y consejos de nuestros expertos</p>
+            </section>
+
+            <section class="blog-search">
+                <div class="search-box">
+                    <input type="text" placeholder="Buscar artículos...">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+                <div class="categories">
+                    <span>Categorías:</span>
+                    <a href="#" class="category-tag">Desarrollo Web</a>
+                    <a href="#" class="category-tag">Inteligencia Artificial</a>
+                    <a href="#" class="category-tag">Seguridad</a>
+                    <a href="#" class="category-tag">DevOps</a>
+                </div>
+            </section>
+
+            <section class="blog-posts">
+                <article class="blog-post featured">
+                    <div class="post-image">
+                        <img src="/img/blog/ai-development.jpg" alt="Desarrollo con IA">
+                    </div>
+                    <div class="post-content">
+                        <span class="post-date"><i class="far fa-calendar-alt"></i> 15 Mayo, 2023</span>
+                        <h2><a href="#">Cómo la Inteligencia Artificial está revolucionando el desarrollo de software</a></h2>
+                        <p>Exploramos las herramientas de IA que están cambiando la forma en que escribimos código, desde GitHub Copilot hasta ChatGPT y más allá.</p>
+                        <div class="post-footer">
+                            <a href="#" class="read-more">Leer más <i class="fas fa-arrow-right"></i></a>
+                            <span class="post-author"><i class="fas fa-user"></i> Carlos Méndez</span>
+                        </div>
+                    </div>
+                </article>
+
+                <div class="posts-grid">
+                    <article class="blog-post">
+                        <div class="post-image">
+                            <img src="/img/blog/web-components.jpg" alt="Componentes Web">
+                        </div>
+                        <div class="post-content">
+                            <span class="post-date"><i class="far fa-calendar-alt"></i> 10 Mayo, 2023</span>
+                            <h3><a href="#">Componentes Web: El futuro de la interfaz de usuario</a></h3>
+                            <p>Descubre cómo los Web Components están estandarizando el desarrollo frontend y por qué deberías adoptarlos ahora.</p>
+                            <div class="post-footer">
+                                <a href="#" class="read-more">Leer más <i class="fas fa-arrow-right"></i></a>
+                                <span class="post-comments"><i class="fas fa-comment"></i> 12</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="blog-post">
+                        <div class="post-image">
+                            <img src="/img/blog/cybersecurity.jpg" alt="Seguridad en Desarrollo">
+                        </div>
+                        <div class="post-content">
+                            <span class="post-date"><i class="far fa-calendar-alt"></i> 5 Mayo, 2023</span>
+                            <h3><a href="#">5 Errores de Seguridad que Todo Desarrollador Debe Evitar</a></h3>
+                            <p>Una guía práctica para implementar seguridad desde el primer día de desarrollo de tu aplicación.</p>
+                            <div class="post-footer">
+                                <a href="#" class="read-more">Leer más <i class="fas fa-arrow-right"></i></a>
+                                <span class="post-comments"><i class="fas fa-comment"></i> 8</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="blog-post">
+                        <div class="post-image">
+                            <img src="/img/blog/serverless.jpg" alt="Arquitectura Serverless">
+                        </div>
+                        <div class="post-content">
+                            <span class="post-date"><i class="far fa-calendar-alt"></i> 28 Abril, 2023</span>
+                            <h3><a href="#">Serverless: Ventajas y Desventajas para tu Próximo Proyecto</a></h3>
+                            <p>¿Es la arquitectura serverless adecuada para tu aplicación? Analizamos casos de uso reales.</p>
+                            <div class="post-footer">
+                                <a href="#" class="read-more">Leer más <i class="fas fa-arrow-right"></i></a>
+                                <span class="post-comments"><i class="fas fa-comment"></i> 5</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section class="newsletter">
+                <h3>Suscríbete a nuestro boletín</h3>
+                <p>Recibe las últimas noticias y artículos directamente en tu correo</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Tu correo electrónico" required>
+                    <button type="submit">Suscribirse</button>
+                </form>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-section">
+                    <h4>Hydra Tech</h4>
+                    <p>Desarrollo de software a medida y soluciones tecnológicas innovadoras para tu negocio.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Enlaces rápidos</h4>
+                    <ul>
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="/page/servicio.html">Servicios</a></li>
+                        <li><a href="/page/portafolio.html">Portafolio</a></li>
+                        <li><a href="/page/blog.html">Blog</a></li>
+                        <li><a href="/page/contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> Av. Tecnológica 123, Ciudad Digital</li>
+                        <li><i class="fas fa-phone"></i> +1 234 567 890</li>
+                        <li><i class="fas fa-envelope"></i> info@hydratech.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Hydra Desarrollo de Software. Todos los derechos reservados.</p>
+            </div>
+        </footer>
+
+        <script src="/js/menu.js"></script>
+    </body>
+</html>
